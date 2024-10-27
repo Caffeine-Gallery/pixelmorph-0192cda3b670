@@ -1,0 +1,4 @@
+service : {
+  generateAvatar: (vec nat8) -> (nat);
+  getAvatar: (nat) -> (vec nat8) query;
+}
